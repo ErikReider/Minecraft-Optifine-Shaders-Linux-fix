@@ -3,7 +3,7 @@ Type=Application
 Version=1.0
 Name=Minecraft Launcher Fixed
 Comment=Official Minecraft Launcher
-Exec=env MANGOHUD_DLSYM=1 force_glsl_extensions_warn=true mesa_glthread=true vblank_mode=0 mangohud /opt/minecraft-launcher/minecraft-launcher
+Exec=env force_glsl_extensions_warn=true mesa_glthread=true vblank_mode=0 /opt/minecraft-launcher/minecraft-launcher
 Path=/opt/minecraft-launcher/
 Icon=minecraft-launcher
 Terminal=false
